@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nomina", "Nomina\Nomina.csproj", "{BDDB769A-B920-68CD-D4A5-5C09850B512F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{DF173627-ACA5-12FD-23F9-235B83D7F89A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParImpar", "01\ParImpar\ParImpar.csproj", "{EE6FF25C-D67A-5F96-F328-FE4802DB5B06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDDB769A-B920-68CD-D4A5-5C09850B512F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDB769A-B920-68CD-D4A5-5C09850B512F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDB769A-B920-68CD-D4A5-5C09850B512F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDB769A-B920-68CD-D4A5-5C09850B512F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE6FF25C-D67A-5F96-F328-FE4802DB5B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE6FF25C-D67A-5F96-F328-FE4802DB5B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE6FF25C-D67A-5F96-F328-FE4802DB5B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE6FF25C-D67A-5F96-F328-FE4802DB5B06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE6FF25C-D67A-5F96-F328-FE4802DB5B06} = {DF173627-ACA5-12FD-23F9-235B83D7F89A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2DE0C5C-46F1-47A3-8A64-82DADF8827CE}
+	EndGlobalSection
+EndGlobal
